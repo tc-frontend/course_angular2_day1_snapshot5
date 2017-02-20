@@ -44,4 +44,8 @@ export class ProductListComponent implements OnInit   {
         console.log('OnInit')
     }
 
+    onRatingCicked(message: string):void{
+        this.pageTitle = 'Product List:' + message;
+    }
+
 }
